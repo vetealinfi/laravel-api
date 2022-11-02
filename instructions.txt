@@ -1,0 +1,37 @@
+Creamos projecto con 
+
+composer create-project laravel/laravel backend
+
+php artisan route:list
+me lista las rutas disponibles por defecto
+
+
+php artisan make:model Book -mf --api
+m para la migracion
+f para el factory
+
+
+
+
+Veremos las rutas
+
+get  /books/ index
+get /books/{id} show
+get /books/create create ---- formulario
+post /books store
+get /books/{id}/edit edit  ----- formu
+patch /books/{id} update
+delete /books/{id} delete
+
+
+
+Para language tratar de implementar https://laravel-lang.com/usage.html
+
+Para hacer test usar php artisan test
+
+
+En php unit.xml cambiar la db de test
+<env name="DB_DATABASE" value="laravel_test"/>
+
+4755
+
